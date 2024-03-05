@@ -18,5 +18,64 @@ public class Fornecedor {
     private String sexo;
     private String endereco ;
     private String telefone;
-    // private Categoria
+    
+    Categorias categoriaFornecida = new Categorias();
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public String getCnpj() {
+        return cnpj;
+    }
+
+    public void setCnpj(String cnpj) {
+        this.cnpj = cnpj;
+    }
+
+    public String getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
+    }
+
+    public String getTelefone() {
+        return telefone;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
+
+    public Categorias getCategoria() {
+        return categoriaFornecida;
+    }
+
+    public void setCategoria(Categorias categoria) {
+        this.categoriaFornecida = categoria;
+    }
+    
+    
 }
