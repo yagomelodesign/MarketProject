@@ -12,4 +12,11 @@ package classes;
  */
 public class Fornecedor {
     
+   private String nome;
+    private int idade;
+    private String cnpj;
+    private String sexo;
+    private String endereco ;
+    private String telefone;
+    // private Categoria
 }
