@@ -5,20 +5,19 @@ package classes;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
  * @author 12046386671
  */
 public class Fornecedor {
-    
-   private String nome;
+
+    private String nome;
     private int idade;
     private String cnpj;
     private String sexo;
-    private String endereco ;
+    private String endereco;
     private String telefone;
-    
+
     Categorias categoriaFornecida = new Categorias();
 
     public String getNome() {
@@ -76,6 +75,5 @@ public class Fornecedor {
     public void setCategoria(Categorias categoria) {
         this.categoriaFornecida = categoria;
     }
-    
-    
+
 }

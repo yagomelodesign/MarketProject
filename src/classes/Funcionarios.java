@@ -5,13 +5,12 @@ package classes;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
  * @author 12046386671
  */
 public class Funcionarios {
-    
+
     private String nome;
     private int idade;
     private String cpf;
@@ -66,6 +65,5 @@ public class Funcionarios {
     public void setSalario(double salario) {
         this.salario = salario;
     }
-    
-    
+
 }

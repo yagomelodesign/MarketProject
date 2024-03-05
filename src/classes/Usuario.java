@@ -5,13 +5,12 @@ package classes;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
  * @author 12046386671
  */
 public class Usuario {
-    
+
     private String usuario;
     private int id;
     private String senha;
@@ -39,7 +38,5 @@ public class Usuario {
     public void setSenha(String senha) {
         this.senha = senha;
     }
-    
-    
-    
+
 }

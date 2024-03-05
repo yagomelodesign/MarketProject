@@ -1,16 +1,7 @@
 package classes;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author 12046386671
- */
 public class Cliente {
+
     private String nome;
     private int idade;
     private String cpf;
@@ -65,7 +56,5 @@ public class Cliente {
     public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
-    
-    
 
 }
