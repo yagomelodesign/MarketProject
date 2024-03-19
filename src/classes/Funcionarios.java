@@ -9,45 +9,15 @@ package classes;
  *
  * @author 12046386671
  */
-public class Funcionarios {
+public class Funcionarios extends Pessoa {
 
-    private String nome;
-    private int idade;
-    private String cpf;
-    private String sexo;
     private String funcao;
     private double salario;
 
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public int getIdade() {
-        return idade;
-    }
-
-    public void setIdade(int idade) {
-        this.idade = idade;
-    }
-
-    public String getCpf() {
-        return cpf;
-    }
-
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
-    }
-
-    public String getSexo() {
-        return sexo;
-    }
-
-    public void setSexo(String sexo) {
-        this.sexo = sexo;
+    public Funcionarios(String nome, int idade, String cpf, String sexo, String endereco, String telefone, String funcao, double salario) {
+        super(nome, idade, cpf, sexo, endereco, telefone);
+        this.funcao = funcao;
+        this.salario = salario;
     }
 
     public String getFuncao() {
