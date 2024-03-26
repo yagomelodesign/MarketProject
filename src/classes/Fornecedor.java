@@ -20,7 +20,7 @@ public class Fornecedor extends Pessoa{
 
     @Override
     void falar() {
-        throw new UnsupportedOperationException("Olá, sou o fornecedor " + super.getNome()); 
+        System.out.println("Olá, sou o fornecedor " + super.getNome()); 
     }
 
 }
