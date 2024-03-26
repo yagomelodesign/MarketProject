@@ -9,7 +9,7 @@ package classes;
  *
  * @author 17588831626
  */
-public class Pessoa {
+abstract class Pessoa {
 
     private String nome;
     private int idade;
@@ -26,17 +26,9 @@ public class Pessoa {
         this.endereco = endereco;
         this.telefone = telefone;
     }
-   
     
-    
-    // Função de falar
-    public void falar(){
-        System.out.println("Oi");
-    }
-    
-    
-    
-    
+    // Função de falar abstract
+    abstract void falar();
     
     public String getNome() {
         return nome;

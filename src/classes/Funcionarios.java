@@ -36,4 +36,8 @@ public class Funcionarios extends Pessoa {
         this.salario = salario;
     }
 
+    @Override
+    void falar() {
+        System.out.println("Olá");
+    }
 }

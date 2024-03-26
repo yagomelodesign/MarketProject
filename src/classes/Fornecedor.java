@@ -18,4 +18,9 @@ public class Fornecedor extends Pessoa{
         this.categoriaFornecida = categoria;
     }
 
+    @Override
+    void falar() {
+        throw new UnsupportedOperationException("Olá, sou o fornecedor " + super.getNome()); 
+    }
+
 }
