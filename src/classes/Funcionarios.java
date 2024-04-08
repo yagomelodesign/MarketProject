@@ -1,23 +1,19 @@
 package classes;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-/**
- *
- * @author 12046386671
- */
 public class Funcionarios extends Pessoa {
 
+    private static int identificadorEstatico;
+    private int idFuncionarios;
     private String funcao;
     private double salario;
 
     public Funcionarios(String nome, int idade, String cpf, String sexo, String endereco, String telefone, String funcao, double salario) {
         super(nome, idade, cpf, sexo, endereco, telefone);
+        this.idFuncionarios = this.identificadorEstatico;
+        this.identificadorEstatico++;
         this.funcao = funcao;
         this.salario = salario;
+
     }
 
     public String getFuncao() {
@@ -37,7 +33,13 @@ public class Funcionarios extends Pessoa {
     }
 
     @Override
-    void falar() {
-        System.out.println("Olá");
+    public void andar() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
+
+    @Override
+    public void falar() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
 }

@@ -1,15 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package classes;
 
-/**
- *
- * @author 17588831626
- */
-abstract class Pessoa {
+abstract class Pessoa implements PessoaAcoes{
 
     private String nome;
     private int idade;
@@ -17,6 +8,7 @@ abstract class Pessoa {
     private String sexo;
     private String endereco;
     private String telefone;
+    
 
     public Pessoa(String nome, int idade, String cpf, String sexo, String endereco, String telefone) {
         this.nome = nome;
@@ -26,9 +18,6 @@ abstract class Pessoa {
         this.endereco = endereco;
         this.telefone = telefone;
     }
-    
-    // Função de falar abstract
-    abstract void falar();
     
     public String getNome() {
         return nome;
