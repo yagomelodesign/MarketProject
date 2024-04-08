@@ -9,7 +9,7 @@ public class Produto {
     private String marca;
     private Categorias categoria;
 
-    public Produto(Categorias categoria){
+    public Produto(Categorias categoria, String nome){
         this.categoria = categoria;
         this.idProduto = this.identificadorEstatico;
         this.identificadorEstatico++;

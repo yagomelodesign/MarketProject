@@ -13,6 +13,4 @@ public class Estoques {
     public void adicionarAoEstoque(int quantidade){
         this.quantidade += quantidade;
     }
-    
-    
 }

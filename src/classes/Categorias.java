@@ -6,9 +6,10 @@ public class Categorias {
     private int idCategoria;
     private String tipoCategoria;
     
-    public Categorias(){
+    public Categorias(String tipoCategoria){
         this.idCategoria = this.identificadorEstatico;
         this.identificadorEstatico++;
+        this.tipoCategoria = tipoCategoria;
     }
 
     public String getTipoCategoria() {
